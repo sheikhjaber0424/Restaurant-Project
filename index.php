@@ -13,7 +13,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand" href="#">W&S</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -80,7 +80,7 @@
 <!-- Restaurant Menu Section -->
 <div id="restaurant-menu">
   <div class="section-title text-center">
-    <div class="overlay">
+    <div class="overlay" style="padding: 80px 0; background: rgb(0,0,0,7);"  >
       <h2>Menu</h2>
       <hr/>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui ab eos voluptates accusamus ratione, quo aliquam, esse illum nihil id odit assumenda vitae labore eligendi fuga at, dolore velit quos?</p>
@@ -191,11 +191,11 @@
 
 
 
-<!-- Gallery -->
+<!--------- Gallery --------->
 <div id="portfolio">
   <div class="section-text text-center">
-    <div class="overlay">
-      <h2>Gallery</h2>
+    <div class="overlay" style="padding: 80px 0; background: rgb(0,0,0,7)">
+      <h2 style="color :white ">Gallery</h2>
       <hr>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit!</p>
     </div>
@@ -219,29 +219,134 @@
       </div>
     </div>
     <div class="row">
-      <div class="portfolio-items">
+      <div class="portfolio-items row ">
+
+      
         <div class="col-sm-6 col-md-4 col-lg-4 breakfast">
           <div class="portfolio-item">
             <div class="hover-bg">
               <div class="hover-text">
                 <h4>Meal Name</h4>
               </div>
-              <div class="hover-text">
-                <h4>Meal Name</h4>
-              </div>
-              <div class="hover-text">
-                <h4>Meal Name</h4>
-              </div>
-              <img src="" class="img-responsive" alt="">
+              <img src="img/1.jpg" class="img-responsive"  style="height:300px; width:100%"alt="">
             </div>
           </div>
         </div>
+
+
+        <div class="col-sm-6 col-md-4 col-lg-4 breakfast">
+          <div class="portfolio-item">
+            <div class="hover-bg">
+              <div class="hover-text">
+                <h4>Meal Name</h4>
+              </div>
+              <img src="img/2.jpg" class="img-responsive" style="height: 300px ;width:100%" alt="">
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-sm-6 col-md-4 col-lg-4 breakfast">
+          <div class="portfolio-item">
+            <div class="hover-bg">
+              <div class="hover-text">
+                <h4>Meal Name</h4>
+              </div>
+              <img src="img/3.jpg" class="img-responsive" style="height: 300px ; width: 100%" alt="">
+            </div>
+          </div>
+        </div>
+
+
+
       </div>
     </div>
 
 
   </div>
 </div>
+
+<!------Book Table ----->
+<div class="container book-table" style="background-color:rgb(216, 212, 212) ;">
+  <h2 class="text-center btn-lg" style="background-color: #8eb640; margin:30px; font-size: 25px; color:#fff">Book Table</h2>
+  <hr/>
+  <div class="row">
+
+  <div class="col-sm-12 col-md-7">
+    <img src="img/main.jpg" style="width:100%; margin-top: 20px; " class="img-responsive">
+  </div>
+
+    <div class="col-sm-12 col-md-5">
+      <form >
+        <div class="form-group book-element" style="margin-bottom: 20px">
+          <label >Name</label>
+          <input type="text" class="form-control" id="name" name="name" placeholder="name" required>
+        </div>
+
+        <div class="form-group book-element" style="margin-bottom: 20px">
+          <label >Number of Seats</label>
+          <input type="text" class="form-control" id="seats" name="seats" placeholder="4" min="1" max="9" required>
+        </div>
+
+        <div class="form-group book-element" style="margin-bottom: 20px">
+          <label >Day</label>
+          <select class="form-select" name="day" id="day">
+            <option value="monday">Monday</option>
+            <option value="tuesday">Tuesday</option>
+            <option value="wednesday">Wednesday</option>
+            <option value="thrusday">Thrusday</option>
+            <option value="friday">Friday</option>
+          </select>
+        </div>
+
+        <div class="form-group book-element" style="margin-bottom: 20px">
+          <label >Meal</label>
+          <select class="form-select" name="meal" id="meal">
+            <option value="breakfast">breakfast</option>
+            <option value="dinner">Dinner</option>
+            <option value="coffee">Coffee</option>
+            <option value="snack">Snack</option>
+            
+          </select>
+        </div>
+
+        <div class="form-group book-element" style="margin-bottom: 20px">
+        
+          <input type="submit" class="btn btn-success" id="submitBtn" value="Book now" />
+        </div>
+
+
+      </form>
+    </div>
+  </div>
+</div>
+
+
+<div style=" background-color:rgb(58,58,58); color: #fff;padding: 50px; margin-top:30px">
+  <div class="row">
+      <div class="col-md-4 col-sm-12 text-center">
+        <p class="footer-title"  style="text-transform: uppercase;  color: #8eb640;font-weight: 600;">Address</p>
+        <p>Uttara Azampur</p> 
+        <p>Dhaka</p>
+      </div>
+
+      <div class="col-md-4 col-sm-12 text-center">
+         <p class="footer-title" style="text-transform: uppercase;  color: #8eb640;font-weight: 600;">Opening Hours</p> 
+         <p>Mon-Thrus 9:00AM - 11:00PM</p> 
+         <p>Fri-Sun 10:00AM - 11:30PM</p>
+      </div>
+
+      <div class="col-md-4 col-sm-12 text-center">
+        <p class="footer-title"  style="text-transform: uppercase;  color: #8eb640;font-weight: 600;">Contact Info</p>
+        <p>Phone +880-1521764892</p>
+        <p>Email: sheikhjaber666@gmail.com</p>
+      </div>
+  </div>
+  
+
+</div>
+
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
