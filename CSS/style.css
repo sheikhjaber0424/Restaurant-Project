@@ -1,0 +1,181 @@
+body,html{
+    font-family: 'Raleway','sans-serif';
+    color: #777;
+    font-weight: 300;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.intro{
+    display: table;
+    width: 100%;
+    padding: 0;
+    background: url("../img/asd.jpg") no-repeat center center !important;
+    
+    background-size: cover;
+}
+
+.intro .overlay{
+    background: rgb(83, 81, 81);
+}
+
+.intro h1{
+    font-family: 'Dancing Script',cursive;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.intro p{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+header .intro-text{
+    padding-top: 250px;
+    padding-bottom: 200px;
+    text-align: center;
+    color: #fff;
+}
+
+#about {
+    padding: 120px 0;
+}
+#about h3{
+    font-size: 20px;
+}
+
+#about .about-text{
+    margin-left: 10px;
+}
+
+#about .about-img{
+    display: inline-block;
+    position: relative;
+}
+
+#about .about-img::before{
+    display: block;
+    content: '';
+    position: absolute;
+    top: 8px;
+    bottom: 8px;
+    left: 8px;
+    border: 1px solid rgb(32, 31, 31);
+}
+
+#about p{
+    line-height: 24px;
+    margin: 15px 0  30px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+#restaurant-menu{
+    padding: 0 0 60px 0;
+}
+
+#restaurant-menu .section-title{
+    background: #444 url() center center no-repeat fixed;
+    background-size: cover;
+}
+
+#restaurant-menu .section-title h2{
+    color: #fff;
+}
+
+#restaurant-menu .menu-section{
+    margin: 0 20px 80px;
+}
+#restaurant-menu .menu-section hr{
+    margin: 0 auto;
+}
+
+#restaurant-menu .menu-section-title{
+    font-size: 25px;
+    display: block;
+    font-weight: 500;
+    color: #444;
+    margin: 20px 0;
+    text-align: center;
+}
+
+#restaurant-menu .menu-item{
+    margin: 35px 0;
+    font-size: 17px;
+}
+
+#restaurant-menu .menu-item-name{
+    font-weight: 600;
+    font-size: 16px;
+    color: #555;
+    border-bottom: 10px  rgb(180, 68, 68);
+}
+#restaurant-menu .menu-item-description{
+    font-style: italic;
+    font-size: 15px;
+}
+
+#restuarant-menu .menu-item-price{
+    float: right;
+    font-weight: 600;
+    color: #555;
+    margin-top: -25;
+}
+
+#portfolio{
+    padding: 0 0 120px 0;
+}
+
+#portfolio .section-title{
+    background: #4444 url() center center no-repeat fixed;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+#portfolio .section-title h2{
+    color: #fff;
+}
+
+.categories{
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+ul.cat li{
+    display: inline-block;
+}
+
+ol.type li{
+    display: inline-block;
+    margin: 0 10px;
+    padding: 20px 0;
+}
+
+ol.type li a{
+    color: #999;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 12px 24px;
+    background: #eee ;
+    border: 0;
+    border-radius: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+ol.type li a.active{
+    color: #fff;
+    background: #8eb640;
+}
+ol.type li a:hover{
+    color: #fff;
+    background: #8eb640;
+}
