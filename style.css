@@ -10,8 +10,8 @@ body,html{
     display: table;
     width: 100%;
     padding: 0;
-    background: url("../img/asd.jpg") no-repeat center center !important;
-    
+    background: url("img/main.jpg") no-repeat center center !important;
+    background-color: #e5e5e5;
     background-size: cover;
 }
 
@@ -56,6 +56,7 @@ header .intro-text{
 #about .about-img{
     display: inline-block;
     position: relative;
+    margin-bottom: 20px;
 }
 
 #about .about-img::before{
@@ -73,10 +74,7 @@ header .intro-text{
     margin: 15px 0  30px;
 }
 
-.row {
-    display: flex;
-    flex-direction: row;
-}
+
 
 #restaurant-menu{
     padding: 0 0 60px 0;
@@ -113,21 +111,24 @@ header .intro-text{
 }
 
 #restaurant-menu .menu-item-name{
+    display: inline-block;
     font-weight: 600;
     font-size: 16px;
     color: #555;
-    border-bottom: 10px  rgb(180, 68, 68);
+    border-bottom: 2px dotted rgb(117, 113, 113);
 }
 #restaurant-menu .menu-item-description{
     font-style: italic;
     font-size: 15px;
 }
 
-#restuarant-menu .menu-item-price{
+#restaurant-menu .menu-item-price{
+    
     float: right;
     font-weight: 600;
     color: #555;
-    margin-top: -25;
+   
+    
 }
 
 #portfolio{
