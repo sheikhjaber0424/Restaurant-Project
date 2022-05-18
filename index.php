@@ -16,7 +16,7 @@
 
   <img src="img/sushi.jpg" alt="" style="width:75px; height:75px; margin:10px; border-radius:10px ">
 
-    <a class="navbar-brand" href="#">W&S</a>
+    <a class="navbar-brand" href="#">FWA</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -57,16 +57,18 @@ if(isset($_GET['booking']) && !empty($_GET['booking'])) // $_GET['booking'] link
 
 <!------- Header Section ------->
 <header id="header">
-    <div class="intro">
+    <div class="intro" style="background: url('res.jpg') no-repeat center center !important;">
     
         <div class="overlay">
         <div class="container">
             <div class="row">
             
                 <div class="intro-text">
-                    <h1>W&S</h1>
+                    <h1>FOOD</h1>
+                    <h1>WITH</h1>
+                    <h1>ATTITUDE</h1>
                     <p>Restaurant / Coffee / Breakfast</p>
-                    <a href="" class="btn btn-custom btn-lg page-scroll">Discover Our Sory</a>
+                    <a href="" class="btn btn-light btn-lg page-scroll">Discover Our Sory</a>
                 </div>
             </div>
         </div>
@@ -403,7 +405,7 @@ else{
         <div class="form-group book-element" style="margin-bottom: 20px">
           <label >Meal</label>
           <select class="form-select" name="meal" id="meal">
-            <option value="breakfast">breakfast</option>
+            <option value="breakfast">Breakfast</option>
             <option value="dinner">Dinner</option>
             <option value="coffee">Coffee</option>
             <option value="snack">Snack</option>
